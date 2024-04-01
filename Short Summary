@@ -1,0 +1,8 @@
+Enhances AWS infrastructure by establishing a robust and scalable RDS database environment.  
+This prioritizes minimizing Recovery Time Objective (RTO) and Recovery Point Objective (RPO)  
+through advanced database management strategies and best practices including Multi AZ deployments of RDS and provisioning the Read Replica. 
+I create a highly available RDS database, ensuring data integrity and reliability and an EC2 instance to connect to the RDS database. 
+SQL clients are provisioned inside the EC2 Instance for database access and management. 
+Security groups are configured to restrict direct access to the RDS instance, allowing only the designated EC2 instance to connect. 
+Thorough testing, including the creation of testing tables and other essential configurations is conducted to ensure the proper functioning of the database. 
+The followed tasks commit to enhancing data resilience and aligning standard needs for robust database solutions.
